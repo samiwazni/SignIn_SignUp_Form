@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline:none;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2cb6af;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  a {
+    text-decoration: none;
+    color: #2cb6af;
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  a {
+    text-decoration: none;
+    color: #2cb6af;
+    font-size: 14px;
+  }
+}
+
+
+
+h1{
+  text-align: center;
+  font-size: 32px;
+  color: aliceblue;
+  padding: 0 0 40px 0;
+}
+
+.h1-color {
+  color: #e787df;
+}
+
+/* background-img */
+.background_img {
+  width: 100%;
+  height: 99vh;
+}
+
+@media (max-width: 768px) {
+  .background_img {
+    width: 100%;
+    height: 99vh;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .background_img {
+    width: 100%;
+    height: 99vh;
+  }
+
+}
+
+/* form_box_style */
+.form_box {
+	position:absolute;
+	left:50%;
+  top:50%;
+	transform: translate(-50%,-50%);
+  background-color: rgba(33, 64, 85, 0.89);
+	border-radius:10px;
+	padding:70px 100px;
+  text-decoration: none;
+  }
+
+@media (max-width: 768px) {
+  .form_box {
+    position: absolute;
+    left:55%;
+    right: -10%;
+    top:50%;
+    background-color: rgba(33, 64, 85, 0.89);
+    border-radius:10px;
+    padding:60px 50px;
+    text-decoration: none;
+  }
+}
+
+@media  screen and (max-width: 450px) {
+  .form_box {
+    position: absolute;
+    left:50%;
+    right: -35%;
+    top:50%;
+    background-color: rgba(33, 64, 85, 0.89);
+    border-radius:10px;
+    padding:50px 30px;
+    text-decoration: none;
+  }
+}
+
+label {
+  color: aliceblue;
+}
+
+
+input[type=name], input[type=password] {
+  border:0;
+  color:#fff;
+  border-bottom:3px solid rgb(247, 247, 247);  
+  background:transparent;
+  width:100%;
+  padding:8px 0 5px 0;
+  font-size:16px;
+  margin-bottom: 15px;
+ }
+
+ input[type=name]:focus, input[type=password]:focus {
+    border: none;
+    border-bottom:3px solid rgb(10, 17, 82);  
+ }
+
+
+@media screen and (max-width: 350px, 450px) {
+  input[type=text], input[type=password] {
+    font-size: 14px;
+  }
+
+  label {
+    color: aliceblue;
+    font-size: 15px;
+  }
+}
+
+ button{
+  border: 0;
+  background-color: rgb(255, 255, 255);
+  color: #ad33a3;
+  width: 100%;
+  padding: 10px 30px 10px  30px;
+  margin: 10px 0 15px 0;
+}
+
+button:hover{
+  background-color: rgb(0, 88, 139);
+  color: #fdfdfd;
+}
+
+button:hover{
+  background-color: rgb(0, 88, 139);
+  color: #fdfdfd;
+}
+
+@media screen and (max-width: 350px, 450px) {
+  button{
+    cursor: pointer;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    color: #ad33a3;
+    width: 100%;
+    padding: 10px 30px 10px  30px;
+    margin: 10px 0 15px 0;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 88, 139);
+    color: #fdfdfd;
+  }
+
+}
+
+.forgot_pass {
+  color: #fff;
+}
